@@ -29,7 +29,7 @@ const octokit = new MyOctokit({
         return true
       }
     },
-    onAbuseLimit: (retryAfter, options, octokit) => {
+    onSecondaryRateLimit: (retryAfter, options, octokit) => {
       // does not retry, only logs a warning
       octokit.log.warn(`Abuse detected for request ${options.method} ${options.url}`)
     }
