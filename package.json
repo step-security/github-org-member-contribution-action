@@ -16,7 +16,7 @@
   "dependencies": {
     "axios": "^1.20.0",
     "@actions/core": "^2.0.3",
-    "@actions/github": "^8.0.1",
+    "@actions/github": "^9.1.1",
     "@octokit/plugin-retry": "^8.1.1",
     "@octokit/plugin-throttling": "^11.0.5",
     "array-sort": "^1.0.0",
