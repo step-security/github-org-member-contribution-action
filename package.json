@@ -15,10 +15,10 @@
   },
   "dependencies": {
     "axios": "^1.20.0",
-    "@actions/core": "^1.6.0",
-    "@actions/github": "^5.0.0",
-    "@octokit/plugin-retry": "^3.0.9",
-    "@octokit/plugin-throttling": "^3.5.2",
+    "@actions/core": "^2.0.3",
+    "@actions/github": "^8.0.1",
+    "@octokit/plugin-retry": "^8.1.1",
+    "@octokit/plugin-throttling": "^11.0.5",
     "array-sort": "^1.0.0",
     "csv-stringify": "^5.6.5"
   },
