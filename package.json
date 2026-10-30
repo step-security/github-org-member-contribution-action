@@ -14,7 +14,7 @@
     "build": "ncc build index.js --out dist --license licenses.txt --quiet --minify"
   },
   "dependencies": {
-    "axios": "^1.20.0",
+    "axios": "^1.21.0",
     "@actions/core": "^2.0.3",
     "@actions/github": "^8.0.1",
     "@octokit/plugin-retry": "^8.1.1",
